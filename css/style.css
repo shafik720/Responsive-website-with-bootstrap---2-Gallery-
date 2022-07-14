@@ -6,11 +6,43 @@ a{
 
 .header-left{
     background: #9999CC;
-    padding: 55px 0;
+    padding: 67px 0;
 }
 
 
 .header-mini-bar{
+    display: inline-block;
     background: white;
     height:110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 0 55px;
+    transition: all 0.1s ease-in-out;
 }
+.header-mini-bar:hover{
+    background: #CC9999;
+    color: white;
+}
+
+.banner-right{
+    background: #EDEEEF;
+    height: 641px;
+}
+.banner-right p{
+    color: grey;
+    line-height: 30px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.banner-right a{
+    display: inline-block;
+    padding: 15px 35px;
+    color: white;
+    background: #CC9999;
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+
