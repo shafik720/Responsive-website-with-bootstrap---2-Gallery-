@@ -31,16 +31,15 @@ Banner Section
 ------------------------------------------------------------------------------------------*/
 .banners{
     display: flex;
-    align-items: stretch;
 }
 .banner-rights{
     background: #EDEEEF;
     flex: 1;
     margin-left: 10px;
-    padding: 40px 20px 10px 20px ;
+    padding: 40px 20px 20px 20px ;
 }
 .banner-lefts{
-    flex: 1.5;
+    flex: 1.8;
 }
 .banner-lefts img{
     width: 100%;
@@ -147,6 +146,19 @@ For mobile:
         width: 100%;
         margin-top: 15px;
     }
+    /* Banner section  */
+    .banners{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-rights{
+        background: #EDEEEF;
+        flex: 1;
+        margin-left: 0px;
+        margin-top: 10px ;
+        padding: 40px 20px 20px 20px ;
+    }
 }
 
 /*--------------------------------------------------- 
@@ -169,6 +181,19 @@ For ipads, tablet:
         flex: 1.5;
         width: 100%;
         margin-top: 15px;
+    }
+    /* Banner section  */
+    .banners{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-rights{
+        background: #EDEEEF;
+        flex: 1;
+        margin-left: 0px;
+        margin-top: 10px ;
+        padding: 40px 20px 20px 20px ;
     }
 }
 
@@ -193,6 +218,19 @@ For ipads, tablet:
         flex: 1.5;
         width: 100%;
         margin-top: 15px;
+    }
+    /* Banner section  */
+    .banners{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-rights{
+        background: #EDEEEF;
+        flex: 1;
+        margin-left: 0px;
+        margin-top: 10px ;
+        padding: 40px 20px 20px 20px ;
     }
 }
 
