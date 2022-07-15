@@ -242,6 +242,21 @@ Gallery Section
 }
 
 
+.footer{
+    margin-top: 120px;
+}
+.footer-icons a{
+    padding: 10px 15px;
+    background: #99CCFF;
+    color: grey;
+    font-size: 1.2em;
+    transition: all 0.3s;
+}
+.footer-icons a:hover{
+    color: black;
+    background: #198cff;
+}
+
 
 
 
