@@ -111,6 +111,18 @@ Banner Section
 }
 
 
+.gallery-heading{
+    background: #99CCFF;
+}
+.gallery-heading-top{
+    text-align: right;
+    
+}
+.gallery-heading-bottom a{
+    color: black;
+    font-size: 1.3em;
+    padding: 0 10px;
+}
 
 
 
