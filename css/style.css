@@ -26,18 +26,34 @@ a{
     color: white;
 }
 
-.banner-right{
-    background: #EDEEEF;
-    height: 641px;
+/*-----------------------------------------------------------------------------------------
+Banner Section  
+------------------------------------------------------------------------------------------*/
+.banners{
+    display: flex;
+    align-items: stretch;
 }
-.banner-right p{
+.banner-rights{
+    background: #EDEEEF;
+    flex: 1;
+    margin-left: 10px;
+    padding: 40px 20px 10px 20px ;
+}
+.banner-lefts{
+    flex: 1.5;
+}
+.banner-lefts img{
+    width: 100%;
+}
+
+.banner-rights p{
     color: grey;
     line-height: 30px;
     font-size: 1.2em;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin: 30px 0;
 }
-.banner-right a{
+.banner-rights a{
     display: inline-block;
     padding: 15px 35px;
     color: white;
