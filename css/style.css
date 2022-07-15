@@ -46,3 +46,12 @@ a{
     margin-top: 25px;
 }
 
+.icon-menu a{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+#icon-menu-icon{
+    font-size: 6em;
+}
