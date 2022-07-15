@@ -129,14 +129,18 @@ Banner Section
 /*-----------------------------------------------------------------------------------------
 Gallery Section  
 ------------------------------------------------------------------------------------------*/
+.gallery-section{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
 .gallery-card{
     position: relative;
-    border: 2px solid red;
     /* width: 30%; */
 }
 .card-text{
     position: absolute;
-    color: orange;
     text-align: center;
     top: 10%;
     bottom: 10%;
@@ -257,6 +261,13 @@ For mobile:
         margin-top: 10px ;
         padding: 40px 20px 20px 20px ;
     }
+    /* Gallery Section  */
+    .gallery-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
 }
 
 /*--------------------------------------------------- 
@@ -292,6 +303,13 @@ For ipads, tablet:
         margin-left: 0px;
         margin-top: 10px ;
         padding: 40px 20px 20px 20px ;
+    }
+    /* Gallery Section  */
+    .gallery-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10px;
+        column-gap: 10px;
     }
 }
 
@@ -329,6 +347,13 @@ For ipads, tablet:
         margin-left: 0px;
         margin-top: 10px ;
         padding: 40px 20px 20px 20px ;
+    }
+    /* Gallery Section  */
+    .gallery-section{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        row-gap: 10px;
+        column-gap: 10px;
     }
 }
 
