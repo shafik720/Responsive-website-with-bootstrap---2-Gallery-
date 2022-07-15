@@ -138,16 +138,17 @@ Gallery Section
     position: absolute;
     color: orange;
     text-align: center;
-    border: 4px solid white;
     top: 10%;
     bottom: 10%;
     left: 10%;
     right: 10%;
     overflow: hidden;
+    transition: all 0.3s ;
 }
 .card-text-1{
     position: relative;
     color: white;
+    /* background: rgba(153, 204, 255, 0.534); */
     transition: all 0.3s ease-in-out;
     top: -50%;
     left: 0;
@@ -159,6 +160,7 @@ Gallery Section
 .card-text-2{
     position: relative;
     color: white;
+    /* background: rgba(153, 204, 255, 0.534); */
     font-weight: 700;
     transition: all 0.3s ease-in;
     bottom: -120%;
@@ -182,7 +184,9 @@ Gallery Section
 .card-image:hover .card-text-2{
     bottom: -40%;
 }
-
+.card-image:hover .card-text{
+    border: 4px solid white;
+}
 
 
 
